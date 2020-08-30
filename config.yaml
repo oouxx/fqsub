@@ -54,7 +54,7 @@ proxy-groups:
 proxy-providers:
   provider:
     type: http
-    url: "https://proxy.tgbot.co/clash/proxies?type=ss,vmess"
+    url: "https://proxy.tgbot.co/clash/proxies?type=ss,vmess&c=KR,US,CN,HK,SG,JP"
     interval: 3600
     path: ./provider.yaml
     health-check:

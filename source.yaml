@@ -3,6 +3,10 @@
   options:
     url: https://raw.githubusercontent.com/du5/free/master/sub.list
 
+- type: webfuzzsub
+  options:
+    url: https://raw.githubusercontent.com/oouxx/fqsub/master/sub.list
+
 # 订阅链接
 - type: subscribe
   options:
@@ -17,6 +21,11 @@
 - type: tgchannel
   options:
     channel: ssrList
+    num: 200
+
+- type: tgchannel
+  options:
+    channel: vmesssr
     num: 200
 
 # 翻墙党论坛抓取

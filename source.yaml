@@ -3,9 +3,9 @@
     url: https://raw.githubusercontent.com/oouxx/fqsub/master/sub.list
 
 # 网页模糊抓取
-- type: webfuzz
-  options:
-    url: https://merlinblog.xyz/wiki/freess.html
+#- type: webfuzz
+#  options:
+#    url: https://merlinblog.xyz/wiki/freess.html
     #- type: subscribe
     #options:
     #url: https://raw.githubusercontent.com/ssrsub/ssr/master/v2ray

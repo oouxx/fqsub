@@ -185,7 +185,7 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204
   au:
     type: http
-    url: "https://wangxinxing.ml/clash/proxies?type=ss,vmess&c=AU"
+    url: "https://wangxinxing.ml/clash/proxies?type=vmess&c=AU"
     interval: 3600
     path: ./provider-au.yaml
     health-check:
@@ -194,7 +194,7 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204
   cn:
     type: http
-    url: "https://wangxinxing.ml/clash/proxies?type=ss,vmess&c=CN,TW"
+    url: "https://wangxinxing.ml/clash/proxies?type=vmess&c=CN,TW"
     interval: 3600
     path: ./provider-cn.yaml
     health-check:
@@ -203,7 +203,7 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204
   us:
     type: http
-    url: "https://wangxinxing.ml/clash/proxies?type=ss,vmess&c=US"
+    url: "https://wangxinxing.ml/clash/proxies?type=vmess&c=US"
     interval: 3600
     path: ./provider-us.yaml
     health-check:
@@ -212,7 +212,7 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204
   ca:
     type: http
-    url: "https://wangxinxing.ml/clash/proxies?type=ss,vmess&c=CA"
+    url: "https://wangxinxing.ml/clash/proxies?type=vmess&c=CA"
     interval: 3600
     path: ./provider-ca.yaml
     health-check:
@@ -221,7 +221,7 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204
   jp:
     type: http
-    url: "https://wangxinxing.ml/clash/proxies?type=ss,vmess&c=JP"
+    url: "https://wangxinxing.ml/clash/proxies?type=vmess&c=JP"
     interval: 3600
     path: ./provider-jp.yaml
     health-check:
@@ -230,7 +230,7 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204
   sg:
     type: http
-    url: "https://wangxinxing.ml/clash/proxies?type=ss,vmess&c=SG"
+    url: "https://wangxinxing.ml/clash/proxies?type=vmess&c=SG"
     interval: 3600
     path: ./provider-sg.yaml
     health-check:
@@ -239,7 +239,7 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204
   ru:
     type: http
-    url: "https://wangxinxing.ml/clash/proxies?type=ss,vmess&c=RU"
+    url: "https://wangxinxing.ml/clash/proxies?type=vmess&c=RU"
     interval: 3600
     path: ./provider-ru.yaml
     health-check:
@@ -248,7 +248,7 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204
   ch:
     type: http
-    url: "https://wangxinxing.ml/clash/proxies?type=ss,vmess&c=CH"
+    url: "https://wangxinxing.ml/clash/proxies?type=vmess&c=CH"
     interval: 3600
     path: ./provider-ch.yaml
     health-check:
@@ -257,7 +257,7 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204
   de:
     type: http
-    url: "https://wangxinxing.ml/clash/proxies?type=ss,vmess&c=DE"
+    url: "https://wangxinxing.ml/clash/proxies?type=vmess&c=DE"
     interval: 3600
     path: ./provider-de.yaml
     health-check:
@@ -266,7 +266,7 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204
   fr:
     type: http
-    url: "https://wangxinxing.ml/clash/proxies?type=ss,vmess&c=FR"
+    url: "https://wangxinxing.ml/clash/proxies?type=vmess&c=FR"
     interval: 3600
     path: ./provider-fr.yaml
     health-check:
@@ -275,7 +275,7 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204
   gb:
     type: http
-    url: "https://wangxinxing.ml/clash/proxies?type=ss,vmess&c=GB"
+    url: "https://wangxinxing.ml/clash/proxies?type=vmess&c=GB"
     interval: 3600
     path: ./provider-gb.yaml
     health-check:
@@ -284,7 +284,7 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204
   nl:
     type: http
-    url: "https://wangxinxing.ml/clash/proxies?typess,vmess&c=NL"
+    url: "https://wangxinxing.ml/clash/proxies?type=vmess&c=NL"
     interval: 3600
     path: ./provider-nl.yaml
     health-check:

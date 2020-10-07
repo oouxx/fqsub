@@ -1,6 +1,3 @@
-# 所有节点均从公开互联网上抓取，使用clash自动检查可用性即可
-# 抓取程序已开源： https://github.com/zu1k/proxypool
-
 # port of HTTP
 port: 7890
 
@@ -52,85 +49,85 @@ proxy-groups:
     use:
       - all
   - name: 🇨🇳 中国
-    type: url-test
+    type: load-balance
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
     use:
       - cn
   - name: 🇯🇵 日本
-    type: url-test
+    type: load-balance
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
     use:
       - jp
   - name: 🇸🇬 新加坡
-    type: url-test
+    type: load-balance
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
     use:
       - sg
   - name: 🇺🇸 美国
-    type: url-test
+    type: load-balance
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
     use:
       - us
   - name: 🇨🇦 加拿大
-    type: url-test
+    type: load-balance
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
     use:
       - ca
   - name: 🇷🇺 俄罗斯
-    type: url-test
+    type: load-balance
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
     use:
       - ru
   - name: 🇦🇺 澳大利亚
-    type: url-test
+    type: load-balance
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
     use:
       - au
   - name: 🇨🇭 瑞士
-    type: url-test
+    type: load-balance
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
     use:
       - ch
   - name: 🇩🇪 德国
-    type: url-test
+    type: load-balance
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
     use:
       - de
   - name: 🇫🇷 法国
-    type: url-test
+    type: load-balance
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
     use:
       - fr
   - name: 🇬🇧 英国
-    type: url-test
+    type: load-balance
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
     use:
       - gb
   - name: 🇳🇱 荷兰
-    type: url-test
+    type: load-balance
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
     use:
       - nl
   - name: 其他国家
-    type: url-test
+    type: load-balance
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
     use:
       - others
   - name: 延迟最低
-    type: url-test
+    type: fallback
     use:
       - all
     url: 'http://www.gstatic.com/generate_204'

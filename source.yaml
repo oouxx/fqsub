@@ -3,18 +3,15 @@
     url: https://raw.githubusercontent.com/oouxx/fqsub/master/sub.list
 
 # 网页模糊抓取
-#- type: webfuzz
-#  options:
-#    url: https://merlinblog.xyz/wiki/freess.html
-    #- type: subscribe
-    #options:
-    #url: https://raw.githubusercontent.com/ssrsub/ssr/master/v2ray
+- type: webfuzz
+  options:
+    url: https://merlinblog.xyz/wiki/freess.html
 
 # tg频道抓取
 - type: tgchannel
   options:
     channel: fqshare
-    num: 200
+    num: 300
 
 # 翻墙党论坛抓取
 #- type: web-fanqiangdang

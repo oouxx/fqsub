@@ -12,6 +12,14 @@
     channel: fqshare
     num: 300
 
+- type: tgchannel
+  options:
+    channel: sharecentre
+    num: 200
+- type: tgchannel
+  options:
+    channel: vmesssr
+    num: 200
 # 翻墙党论坛抓取
 #- type: web-fanqiangdang
 #  options:

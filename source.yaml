@@ -11,7 +11,15 @@
 - type: subscribe
   options:
     url: https://raw.fastgit.org/freefq/free/master/v2
-
+- type: subscribe
+  options:
+    url: https://sspool.herokuapp.com/sip002/sub
+- type: subscribe
+  options:
+    url: https://sspool.herokuapp.com/vmess/sub
+- type: subscribe
+  options:
+    url: https://sspool.herokuapp.com/trojan/sub
 # 网页模糊抓取
 #- type: webfuzz
 #  options:

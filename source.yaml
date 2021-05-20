@@ -46,6 +46,10 @@
   options:
     channel: VSshit
     num: 200
+- type: tgchannel
+  options:
+    channel: jingpingziyuanfenxiang
+    num: 200
 # 翻墙党论坛抓取
 #- type: web-fanqiangdang
 #  options:

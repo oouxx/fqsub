@@ -7,10 +7,22 @@
 - type: subscribe
   options:
     url: https://raw.fastgit.org/freefq/free/master/ssr
+- type: subscribe
+  options:
+    url: https://raw.githubusercontent.com/learnhard-cn/free_proxy_ss/main/free
     
 - type: subscribe
   options:
     url: https://raw.fastgit.org/freefq/free/master/v2
+
+- type: subscribe
+  options:
+    url: https://iwxf.netlify.app
+
+- type: subscribe
+  options:
+    url: https://raw.githubusercontent.com/adiwzx/freenode/main/adispeed.txt
+
 - type: subscribe
   options:
     url: https://sspool.herokuapp.com/sip002/sub
